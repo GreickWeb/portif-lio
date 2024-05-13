@@ -55,7 +55,8 @@ header{
 .header .headerl p{
     color: white;
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: 16px;
+    width: 60%;
     position: absolute;
     margin-top: 19rem;
     margin-left: 2rem;
@@ -88,7 +89,11 @@ header{
     top: 10rem;
     margin-left: 66%;
     position: absolute;
-    width: 15rem;
-    height: 25rem;
+    width: 30%;
+    height:22rem;
     background-image: repeating-linear-gradient(45deg, #00ff08, #ffffff 5px, transparent 5px, transparent 10px);
+}
+.headerr .euzin img{
+width: 100%;
+
 }
