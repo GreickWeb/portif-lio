@@ -99,8 +99,10 @@ width: 100%;
 }
 .section{
     position: absolute;
-    top: 40rem;
+    top:85%;
+    padding-top: 8%;
     margin-left: 3rem;
+    height: 100%;
 }.section h2{
     font-size: 30px;
     color: #ffffff;
@@ -134,9 +136,10 @@ margin-top: 10px;
 } 
 .sectionr{
     position: absolute;
-    top: 40rem;
+    top: 100%;
     margin-left: 59%;
     align-items: center;
+    padding-right: 2%;
 }
 .sectionr h2{
     color: #ffffff;
@@ -150,5 +153,25 @@ margin-top: 10px;
     font-size: 14px;
     width: 80%;
     font-weight: italic;
-   
+    padding-bottom: 2rem;
+    justify-content: center;
 }
+.skills{
+    position: absolute;
+    top: 200%;
+}
+.skills .skillsleft h2{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.skills .skillsleft p{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    width: 80%;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
