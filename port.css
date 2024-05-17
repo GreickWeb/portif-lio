@@ -81,9 +81,9 @@ header{
     transition: 0.6s;
     
 }
-.headerl .btn:hover{
-    width: 8.5rem;
-    height: 3.5rem;
+   .headerl .btn:hover{
+        width: 8.5rem;
+        height: 3.5rem;
 }
 .headerr .euzin{
     top: 10rem;
@@ -105,7 +105,7 @@ width: 100%;
     height: 100%;
 }.section h2{
     font-size: 30px;
-    color: #ffffff;
+    color: #00ff08;
     font-family: "Montserrat";
 }
 .section p{
@@ -118,13 +118,58 @@ width: 100%;
 .icons img{
     position: relative;
     width: 30px;
-    padding-bottom: 2rem;
-
 }
 .section .icons nav ul{
     display: flex;
     gap: 1rem;
 } 
+.section .icons nav .rd1{
+    display: flex;
+    gap: 1rem;
+    border-radius: 15px;
+    height: 3rem;
+    width: 15rem;
+    align-items: center;
+    border: 2px solid #00ff08;
+    transition: 170ms linear;
+    margin-bottom: 0.3rem;
+} 
+.section .icons nav .rd2{
+    display: flex;
+    gap: 1rem;
+    border-radius: 15px;
+    height: 3rem;
+    width: 15rem;
+    align-items: center;
+    border: 2px solid #00ff08;
+    transition: 0.170ms linear;
+    margin-bottom: 0.3rem;
+
+} 
+.section .icons nav .rd3{
+    display: flex;
+    gap: 1rem;
+    border-radius: 15px;
+    height: 3rem;
+    width: 15rem;
+    align-items: center;
+    border: 2px solid #00ff08;
+    transition: 0.170ms linear;
+} 
+
+    .section .icons nav .rd1:hover{
+        border: 2px solid #0080ff;
+
+}
+    .section .icons nav .rd2:hover{
+        border: 2px solid #ea3959;
+
+}
+    .section .icons nav .rd3:hover{
+        border: 2px solid #ffffff;
+
+}
+
 .section .icons nav ul a{
     text-decoration: none;
     color: #ffffff;
@@ -142,7 +187,7 @@ margin-top: 10px;
     padding-right: 2%;
 }
 .sectionr h2{
-    color: #ffffff;
+    color: #00ff08;
     font-family: 'Montserrat';
     font-size: 25px;
     margin-bottom: 1rem;
@@ -160,11 +205,11 @@ margin-top: 10px;
     position: absolute;
     top: 180%;
     width: 100%;
-    padding-top: 10%;
+    padding-top: 7%;
     text-align: center;
 }
 .skills .skillsleft h2{
-    color: #ffffff;
+    color: #00ff08;
     font-family: 'Montserrat';
     font-size: 25px;
     margin-bottom: 1rem;
@@ -190,7 +235,7 @@ font-family: 'Montserrat';
     background-color: #303030;
     box-shadow: 0 0.2rem 1rem #00ff08b4;
     margin-bottom: 2%;
-
+    object-fit: contain;
 }
 .projetos{
     position: absolute;
@@ -198,7 +243,7 @@ font-family: 'Montserrat';
     width: 100%;
     padding-top: 7%;
     background-color:#303030 ;
-    height: 100%;
+    height: 90%;
     
 }
 .projetos .subt{
@@ -233,7 +278,7 @@ font-family: 'Montserrat';
 .card{
     position: relative;
     width: 30%;
-    height: 50%;
+    height: 60%;
     background-color: black;
     flex-wrap: nowrap;
     justify-content: center;
@@ -254,6 +299,7 @@ font-family: 'Montserrat';
     background-color: #000000;
     box-shadow: 0 0.2rem 1rem #ffffffb4;
     margin-bottom: 10%;
+    display: block;
 }
 .cardpai .card a{
     text-align: center;
@@ -266,10 +312,31 @@ font-family: 'Montserrat';
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins';
-    font-size: 0.9rem
+    font-family: 'Arial';
+    font-size: 0.9rem;
+    transition: 600ms linear;
+    text-shadow: 0px 0px 7px #000000;
+
+    }
+    .cardpai .card a:hover{
+        text-shadow: 0px 0px 7px #444444;
     }
 .cardpai .card p{
     font-size: 0.8rem;
-padding-right: 3.5rem;    
+padding-right: 3.5rem;
+display: block;    
+}
+.cnt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 420%;
+
+}
+.cnt .title{
+position: relative;
+top: 19%;
+margin-left: 3rem;
+color: #00ff08;
+font-size:1.6rem;
 }
