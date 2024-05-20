@@ -227,6 +227,10 @@ margin-top: 10px;
 color: rgb(255, 255, 255);
 font-family: 'Montserrat';
 }
+.subt{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    }
 .skills .skillsleft img{
     width: 3rem;
     height: 3rem;
@@ -319,6 +323,7 @@ font-family: 'Montserrat';
 
     }
     .cardpai .card a:hover{
+        font-weight: bolder;
         text-shadow: 0px 0px 7px #444444;
     }
 .cardpai .card p{
@@ -329,14 +334,44 @@ display: block;
 .cnt{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 50%;
     top: 420%;
 
 }
 .cnt .title{
 position: relative;
-top: 19%;
-margin-left: 3rem;
+top: 15%;
 color: #00ff08;
 font-size:1.6rem;
+text-align: center;
+}
+.cnt .subt{
+    position: relative;
+    top: 18%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.cnt .iconsend img{
+    align-items: center;
+    width: 3%;
+    margin-left: 46%;
+}
+.cnt .iconsend{
+    position: relative;
+top: 22%;
+}
+.cnt .email{
+    position: relative;
+    top: 22%;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    text-align: center;
+    left: 40%;
+    margin-bottom: 2rem;
+
+}
+.cnt .iconsend nav ul p{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    text-align: center;
 }
